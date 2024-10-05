@@ -1,0 +1,98 @@
+.logo {
+    margin : left 200px; 
+   height: 5em;
+   padding-bottom: 2em;
+}
+.h {
+    margin-left: 31.5%;
+}
+a {
+    margin-left: 2%;
+    a {
+        text-decoration: none;
+      }
+    /* padding-right: 1%; */
+}
+body {
+
+    padding: 65px;
+    background-color: black;
+    margin-left: 500px;
+    background-image: url(/design/desktop-preview.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.nav {
+    width: 100vw;
+    text-decoration-line: none;
+    /* text-decoration-color:black; */
+    margin: left 60px; 
+}
+.tb {
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0; 
+
+    /* padding-bottom: 0%; */
+
+}
+.fo {
+    font-weight: 700;
+    font-size: 3em;
+}
+.w3 {
+    font-weight: 700;
+    font-size: 3em;
+}
+.no-margin {
+    margin-bottom: 0; /* remove margin-bottom from the first h1 */
+    margin-top: 0; /* remove margin-top from the second h1 */
+    padding-bottom: 0; /* remove padding-bottom from the first h1 */
+    padding-top: 0; /* remove padding-top from the second h1 */
+  }
+main {
+    
+    padding: 200px;
+    padding-top: 60px;
+    background-color: snow;
+    height: 85vh;
+    width: 85vw;
+}
+section {
+height: 100%;
+width: 50%;
+float: left;
+
+}
+.rm {
+    background-color: rgb(216, 91, 91);
+    height: 45px;
+    width: 145px;
+    border: none;
+} 
+.new {
+ padding-top: 90px;
+}
+/* .n1 {
+    background-color: rgb(216, 91, 91);
+    text-decoration:rgb(216, 91, 91) ;
+} */
+p {
+float: left; 
+}
+.abstract {
+ 
+    width: 100%;  
+    padding-bottom: 20px; 
+}
+aside {
+    height:100% ;
+    width: 30% ;
+    background-color: #0a0a0a;
+    float: left;
+    padding-left: 20px;
+    margin-left: 25px;
+}
