@@ -20,13 +20,25 @@ body {
     margin-left: 500px;
     background-image: url(/design/desktop-preview.jpg);
     background-size: 100vw 100vh;
+    
     background-repeat: no-repeat;
 }
 .nav {
     width: 100vw;
     text-decoration-line: none;
     /* text-decoration-color:black; */
-    margin: left 60px; 
+    /* margin: left 60px;  */
+    text-align: left;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    /* margin:  right 20%;  */
+}
+.aiart {
+    font-weight: 700;
+    color: white;
 }
 .tb {
     font-weight: 700;
@@ -74,8 +86,12 @@ float: left;
     border: none;
 } 
 .new {
- padding-top: 90px;
+ margin-top: 30px;
+ color: rgb(220, 164, 92);
 }
+/* aside span{
+    margin-top: 60px;
+} */
 /* .n1 {
     background-color: rgb(216, 91, 91);
     text-decoration:rgb(216, 91, 91) ;
@@ -90,9 +106,38 @@ float: left;
 }
 aside {
     height:100% ;
-    width: 30% ;
-    background-color: #0a0a0a;
+    width: 23% ;
+    background-color: black;
     float: left;
     padding-left: 20px;
     margin-left: 25px;
+}  
+.hydro {
+    font-weight: 700;
+    color: white;
+}
+.evs {
+    color: rgb(158, 152, 152);
+    border-bottom: .5px solid rgb(158, 152, 152);
+    
+}
+.line {
+    background-color: rgb(158, 152, 152);
+}
+.aid {
+    color: rgb(158, 152, 152);
+    border-bottom: .5px solid rgb(158, 152, 152); 
+}
+.vc {
+    font-weight: 700;
+    color: white; 
+}
+.yoy {
+    color: rgb(158, 152, 152);
+    border-bottom: .5px solid rgb(158, 152, 152); 
+}
+.wd {
+    position: relative;
+    top: -190px; 
+    left: 300px; ;
 }
