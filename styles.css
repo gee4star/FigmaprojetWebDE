@@ -23,6 +23,12 @@ body {
     
     background-repeat: no-repeat;
 }
+section {
+    height: 100%;
+    width: 50%;
+    float: left;
+    
+    }
 .nav {
     width: 100vw;
     text-decoration-line: none;
@@ -47,6 +53,7 @@ body {
     margin-top: 0;
     padding-bottom: 0;
     padding-top: 0; 
+    width: 17vw;
 
     /* padding-bottom: 0%; */
 
@@ -64,22 +71,20 @@ body {
     margin-top: 0; /* remove margin-top from the second h1 */
     padding-bottom: 0; /* remove padding-bottom from the first h1 */
     padding-top: 0; /* remove padding-top from the second h1 */
+
   }
 main {
     
     padding: 200px;
     padding-top: 60px;
     background-color: snow;
-    height: 85vh;
-    width: 85vw;
+    height: 87vh;
+    width: 92vw;
 }
-section {
-height: 100%;
-width: 50%;
-float: left;
 
-}
 .rm {
+    /* display: flex; */
+    
     background-color: rgb(216, 91, 91);
     height: 45px;
     width: 145px;
@@ -101,16 +106,16 @@ float: left;
 }
 .abstract {
  
-    width: 100%;  
+    width: 36.5vw;  
     padding-bottom: 20px; 
 }
 aside {
-    height:100% ;
-    width: 23% ;
+    /* height:100% ; */
+    /* width: 5vw ; */
     background-color: black;
     float: left;
     padding-left: 20px;
-    margin-left: 25px;
+    /* margin-right: 115px; */
 }  
 .hydro {
     font-weight: 700;
@@ -137,7 +142,19 @@ aside {
     border-bottom: .5px solid rgb(158, 152, 152); 
 }
 .wd {
-    position: relative;
+    /* position: relative;
     top: -190px; 
-    left: 300px; ;
+    left: 300px; ; */
+    float: left;
+}
+#three {
+   padding-top: 271px; 
+}
+#picone {
+    height: 50vh;
+    width: 36.5vw;
+    float: left;
+}
+.articles {
+    width: 25%;
 }
