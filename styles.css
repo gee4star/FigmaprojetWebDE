@@ -54,6 +54,7 @@ section {
     padding-bottom: 0;
     padding-top: 0; 
     width: 17vw;
+    display: inline-block;
 
     /* padding-bottom: 0%; */
 
@@ -78,17 +79,19 @@ main {
     padding: 200px;
     padding-top: 60px;
     background-color: snow;
-    height: 87vh;
+    height: 150vh;
     width: 92vw;
 }
 
 .rm {
     /* display: flex; */
-    
+    display: inline-block;
     background-color: rgb(216, 91, 91);
     height: 45px;
     width: 145px;
     border: none;
+    float: right;
+    margin-right: 6vw;
 } 
 .new {
  margin-top: 30px;
@@ -111,11 +114,11 @@ float: left;
 }
 aside {
     /* height:100% ; */
-    /* width: 5vw ; */
+    width: 10vw ;
     background-color: black;
-    float: left;
+    float: right;
     padding-left: 20px;
-    /* margin-right: 115px; */
+    margin-right: 115px;
 }  
 .hydro {
     font-weight: 700;
@@ -145,7 +148,10 @@ aside {
     /* position: relative;
     top: -190px; 
     left: 300px; ; */
-    float: left;
+    float: right;
+    display: inline-block;
+    width: 15vw;
+    margin-right: 1vw;
 }
 #three {
    padding-top: 271px; 
@@ -156,5 +162,14 @@ aside {
     float: left;
 }
 .articles {
-    width: 25%;
+    margin-top: 15vh;
+    width: 15vw;
+    /* float: left; */
+    /* display: block; */
+    /* height: 30vh; */
+}
+.overallArticles{
+    clear: left;
+    display: inline;
+    float: left;
 }
